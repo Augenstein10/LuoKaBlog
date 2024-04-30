@@ -4,15 +4,18 @@ layout: home
 
 hero:
   name: "Luoka"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "Mobile Notes"
+  tagline: Some front-end knowledge points
+  image:
+    src: /logo.png
+    alt: Logo
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 快速开始
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 去GitHub查看
+      link: https://github.com/Augenstein10/LuoKaBlog
 
 features:
   - title: Feature A
