@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Luoka"
-  text: "Mobile Notes"
-  tagline: Some front-end knowledge points
+  name: "LuokaBlog"
+  text: "个人博客网站"
+  tagline: 基于vitepress+tailwindcss
   image:
     src: /logo.png
     alt: Logo
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /web/grid-layout
     - theme: alt
       text: 去GitHub查看
       link: https://github.com/Augenstein10/LuoKaBlog

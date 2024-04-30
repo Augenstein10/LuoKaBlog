@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,6 +9,7 @@ export default defineConfig({
   title: "Luoka",
   description: "A VitePress Site",
   lang: 'zh',
+  lastUpdated: true, // 显示最后更新时间
   head: [
     [
       'link', { rel: 'icon', href: '/LuoKaBlog/favicon.ico' }
@@ -33,6 +37,8 @@ export default defineConfig({
         items: [
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'grid布局', link: '/web/grid-layout' },
+          { text: '按钮配合sass的使用', link: '/web/button-sass' },
+          { text: '跟随鼠标的骨头', link: '/web/bitterness' },
 
         ],
         collapsed: true
@@ -48,6 +54,14 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Augenstein10/LuoKaBlog' }
-    ]
-  }
+    ],
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    }
+  },
+
 })
