@@ -36,9 +36,10 @@ export default defineConfig({
         text: '前端笔记',
         items: [
           // { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'grid布局', link: '/web/grid-layout' },
-          { text: '按钮配合sass的使用', link: '/web/button-sass' },
+          // { text: 'grid布局', link: '/web/grid-layout' },
+          // { text: '按钮配合sass的使用', link: '/web/button-sass' },
           { text: '跟随鼠标的骨头', link: '/web/bitterness' },
+          { text: 'MutationObserver', link: '/web/MutationObserver' },
 
         ],
         collapsed: true
